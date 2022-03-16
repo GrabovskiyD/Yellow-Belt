@@ -45,7 +45,7 @@ public:
         persons_tasks[person][TaskStatus::NEW]++;
     }
 
-    tuple<TasksInfo, TasksInfo> PermorPersonTasks(const string& person, int task_count){
+    tuple<TasksInfo, TasksInfo> PerformPersonTasks(const string& person, int task_count){
         while(task_count > 0){
             for()
         }
